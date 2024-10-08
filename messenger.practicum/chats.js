@@ -13,6 +13,8 @@ import  './src/modules/chats/components/search-form/search-form.css';
 import { profileBar } from './src/modules/chats/components/profile-bar/profile-bar.js';
 import  './src/modules/chats/components/profile-bar/profile-bar.css';
 
+document.addEventListener("DOMContentLoaded", function(){
+  console.log("DOM loaded");
 document.querySelector('#app').innerHTML += mainLayout();
 document.querySelector('.leftPanel').innerHTML += profileBar();
 document.querySelector('.leftPanel').innerHTML += searchFormView();
@@ -21,5 +23,6 @@ chatModels.forEach(chatModel=>{
   document.querySelector('.leftPanel').innerHTML += chatView(chatModel);
 })
 //document.querySelector('#app').innerHTML = chatView();
+});
 
 

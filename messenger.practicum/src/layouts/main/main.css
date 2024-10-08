@@ -1,10 +1,11 @@
 .app{
     display: flex;
     height: 100vh;
+    flex: 1;
 }
 
 .leftPanel{
-    flex: 1;
+    justify-self: flex-start;
     width: 320px;
     background:  rgba(251, 251, 251, 1);
     padding: 10px;

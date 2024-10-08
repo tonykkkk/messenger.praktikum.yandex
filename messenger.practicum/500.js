@@ -9,7 +9,7 @@ document.querySelector('#app').innerHTML = `
     <p class="description">
       Мы уже фиксим
     </p>
-    <a href="index.html" >
+    <a href="chats.html" >
             Назад к чатам 
     </a>
   </div>
